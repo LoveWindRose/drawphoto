@@ -1,9 +1,452 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="第 1 页" id="PJ-vKWA-Y4flgHl_Q9bb">
-    <mxGraphModel>
+    <mxGraphModel dx="1059" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-1" value="STC89C52RC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="183" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-2" target="DUIX8pBvOdMk01OMnHCl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-2" value="WS2812_DI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="262" y="110" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-3" value="WS2812_VCC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="255" y="256" width="165" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-4" value="WS2812_GND" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="220" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-5" value="P1.0" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-1" target="DUIX8pBvOdMk01OMnHCl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-6" value="VCC" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-1" target="DUIX8pBvOdMk01OMnHCl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-7" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-1" target="DUIX8pBvOdMk01OMnHCl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-8" value="470μF" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.91;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-3" target="DUIX8pBvOdMk01OMnHCl-4">
+          <mxGeometry x="-0.0094" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="283" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-9" value="AC-DC降压模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="330" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-10" value="DC-DC电源模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="457" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-11" value="STC89C52RC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="583" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-12" value="STM32F103C8T6" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="710" width="174" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-13" value="小分线器1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="131" y="583" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-14" value="小分线器2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="462" y="583" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-15" value="小分线器3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="794" y="583" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-16" value="IO端子1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-17" value="IO端子2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-18" value="IO端子3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="391" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-19" value="IO端子4" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="556" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-20" value="IO端子5" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="722" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-21" value="IO端子6" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="888" y="710" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-22" value="LM358运放模块1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1413" y="710" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-23" value="LM358运放模块2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="710" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-24" value="LM358运放模块3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2268" y="710" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-25" value="LM358运放模块4" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="710" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-26" value="大分线器1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="710" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-27" value="大分线器2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2046" y="583" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-28" value="舵机1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1466" y="836" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-29" value="舵机2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="836" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-30" value="舵机3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2289" y="836" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-31" value="舵机4" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2516" y="836" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-32" value="WS2812 GND" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="967" y="836" width="151" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-33" value="自锁开关" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="570" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-34" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1551" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-35" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1298" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-36" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.07;exitY=1;entryX=-Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-9" target="DUIX8pBvOdMk01OMnHCl-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1551" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-37" value="220V输入" style="curved=1;startArrow=none;endArrow=none;exitX=-Infinity;exitY=Infinity;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-34" target="DUIX8pBvOdMk01OMnHCl-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1483" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=Infinity;exitY=-Infinity;entryX=0;entryY=0.71;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-35" target="DUIX8pBvOdMk01OMnHCl-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1246" y="547" />
+              <mxPoint x="1246" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-39" value="12V输出" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-9" target="DUIX8pBvOdMk01OMnHCl-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1416" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-40" value="5V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1665" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-41" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.58;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="547" />
+              <mxPoint x="1200" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-42" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-43" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-44" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-45" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-13" target="DUIX8pBvOdMk01OMnHCl-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-46" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-13" target="DUIX8pBvOdMk01OMnHCl-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-47" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-14" target="DUIX8pBvOdMk01OMnHCl-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-48" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-14" target="DUIX8pBvOdMk01OMnHCl-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-49" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-15" target="DUIX8pBvOdMk01OMnHCl-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-50" value="3.3V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-15" target="DUIX8pBvOdMk01OMnHCl-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="946" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-51" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=0.99;entryX=0.59;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1539" y="547" />
+              <mxPoint x="1539" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-52" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0.63;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1809" y="547" />
+              <mxPoint x="1809" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-53" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.59;entryX=0.74;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2457" y="547" />
+              <mxPoint x="2457" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-54" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.57;entryX=0.66;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2650" y="547" />
+              <mxPoint x="2650" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-55" value="12V" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.96;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-9" target="DUIX8pBvOdMk01OMnHCl-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2213" y="420" />
+              <mxPoint x="2213" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-56" value="12V" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-9" target="DUIX8pBvOdMk01OMnHCl-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2112" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-57" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=0.98;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-26" target="DUIX8pBvOdMk01OMnHCl-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1627" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-58" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1.01;entryY=0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-26" target="DUIX8pBvOdMk01OMnHCl-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2071" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-59" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.95;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-26" target="DUIX8pBvOdMk01OMnHCl-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2444" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-60" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.79;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-26" target="DUIX8pBvOdMk01OMnHCl-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2634" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-61" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.4;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-27" target="DUIX8pBvOdMk01OMnHCl-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1458" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-62" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.45;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-27" target="DUIX8pBvOdMk01OMnHCl-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1735" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-63" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.53;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-27" target="DUIX8pBvOdMk01OMnHCl-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2368" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-64" value="12V/GND" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0.53;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-27" target="DUIX8pBvOdMk01OMnHCl-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2595" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-65" value="VOUT" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.44;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-22" target="DUIX8pBvOdMk01OMnHCl-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1501" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-66" value="VOUT" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-23" target="DUIX8pBvOdMk01OMnHCl-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1753" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-67" value="VOUT" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=0.99;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-24" target="DUIX8pBvOdMk01OMnHCl-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2330" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-68" value="VOUT" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=0.99;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-25" target="DUIX8pBvOdMk01OMnHCl-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2557" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-69" value="P27" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0.12;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1346" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-70" value="P26" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.29;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1665" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-71" value="P25" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.24;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2248" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-72" value="P24" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.28;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2492" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-73" value="P21" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-74" value="P22" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=0.34;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-11" target="DUIX8pBvOdMk01OMnHCl-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1102" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-75" value="PA1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.85;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-12" target="DUIX8pBvOdMk01OMnHCl-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-76" value="5V" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-10" target="DUIX8pBvOdMk01OMnHCl-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1043" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-77" value="GND" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.56;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DUIX8pBvOdMk01OMnHCl-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="458.76" />
+              <mxPoint x="40" y="711.76" />
+            </Array>
+            <mxPoint x="1352" y="399" as="sourcePoint" />
+            <mxPoint x="987" y="769.9000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-78" value="火线" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-9" target="DUIX8pBvOdMk01OMnHCl-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1934" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUIX8pBvOdMk01OMnHCl-79" value="火线" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.06;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DUIX8pBvOdMk01OMnHCl-33" target="DUIX8pBvOdMk01OMnHCl-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1934" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
